@@ -4,6 +4,7 @@
 	width: 800px;
 	min-height: 300px;
 
+	position: relative;
 	margin: auto;
 	padding: 20px;
 

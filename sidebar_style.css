@@ -1,0 +1,30 @@
+
+.sidebar {
+	display: block;
+	box-sizing: border-box;
+	width: 200px;
+	min-height 50px;
+
+	position: absolute;
+	top: 0;
+	left: -200px;
+
+	background-color: #b5b5b5;
+	border: 5px solid #808080;
+}
+
+.sidebar a {
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+
+	color: black;
+	text-decoration-line: none;
+
+	padding: 5px;
+	border-bottom: 2px solid #808080;
+}
+
+.sidebar a:hover {
+	text-decoration-line: underline;
+}
