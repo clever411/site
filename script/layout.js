@@ -115,6 +115,7 @@ if(main) {
 	s.backgroundColor = MAIN_BACKGROUND_COLOR;
 }
 
+
 if(aside && main) {
 	if(aside.offsetHeight > main.offsetHeight) {
 		main.style.height = px(aside.offsetHeight);
