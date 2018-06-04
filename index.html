@@ -3,35 +3,38 @@
 	<head>
 		<title>Главная</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="stylefor_index.css">
+		<link rel="stylesheet" href="styles.css">
+		<script src='function.js' defer></script>
+		<script src='script.js' defer></script>
 	</head>
 
 	<body>
-		<table class="navigation">
-			<tr>
-				<td><a href="index.html">
-					Главная
-				</a></td>
-				<td><a href="description.html">
-					Описание
-				</a></td>
-				<td><a href="contacts.html">
-					Контакты
-				</a></td>
-			</tr>
-		</table>
+		<div id='navcontainer'>
+			<nav id='navigation'>
+				<a href='index.html'>Главная</a>
+				<a href='description.html'>Описание</a>
+				<a href='structures.html'>Структуры Данных</a>
+				<a href='contacts.html'>Контакты</a>
+			</nav>
+		</div>
 
-		<div class="content">
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-				sed do eiusmod tempor incididunt ut labore et dolore magna
-				aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-				ullamco laboris nisi ut aliquip ex ea commodo consequat.
-				Duis aute irure dolor in reprehenderit in voluptate velit
-				esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-				occaecat cupidatat non proident, sunt in culpa qui officia
-				deserunt mollit anim id est laborum.
-			</p>
+		
+		<div id='maincontainer'>
+			<aside id='aside'>
+			</aside>
+			<div id='main'>
+				<h1>Lorem</h1>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+					sed do eiusmod tempor incididunt ut labore et dolore magna
+					aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+					ullamco laboris nisi ut aliquip ex ea commodo consequat.
+					Duis aute irure dolor in reprehenderit in voluptate velit
+					esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+					occaecat cupidatat non proident, sunt in culpa qui officia
+					deserunt mollit anim id est laborum.
+				</p>
+			</div>
 		</div>
 		
 	</body>

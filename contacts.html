@@ -3,29 +3,33 @@
 	<head>
 		<title>Главная</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="stylefor_contacts.css">
+		<link rel="stylesheet" href="styles.css">
+		<script src='function.js' defer></script>
+		<script src='script.js' defer></script>
 	</head>
 
 	<body>
-		<table class="navigation">
-			<tr>
-				<td><a href="index.html">
-					Главная
-				</a></td>
-				<td><a href="description.html">
-					Описание
-				</a></td>
-				<td><a href="contacts.html">
-					Контакты
-				</a></td>
-			</tr>
-		</table>
+		<div id='navcontainer'>
+			<nav id='navigation'>
+				<a href='index.html'>Главная</a>
+				<a href='description.html'>Описание</a>
+				<a href='structures.html'>Структуры Данных</a>
+				<a href='contacts.html'>Контакты</a>
+			</nav>
+		</div>
 
-		<div class="content">
-			<h2>Связаться:</h2>
-			<p>
-				Почта: clever411@yandex.ru
-			</p>
+		
+		<div id='maincontainer'>
+			<aside id='aside'>
+			</aside>
+			<div id='main'>
+				<p>
+					Ф.И.О. автора: Новиков Денис Игоревич.
+				</p>
+				<p>
+					email: clever411@yandex.ru.
+				</p>
+			</div>
 		</div>
 		
 	</body>
